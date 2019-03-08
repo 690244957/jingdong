@@ -1,0 +1,108 @@
+/*
+* @Author: dhl
+* @Date:   2017-10-12 10:28:32
+* @Last Modified by:   dhl
+* @Last Modified time: 2017-10-13 09:24:13
+*/
+
+
+.footer {
+
+	background-color: #eaeaea;
+}
+
+.top_footer {
+	 height: 100px;
+	 border-bottom: 1px solid #ccc;
+}
+.top_footer .w {
+	 height: 100px;
+}
+
+.top_footer ul {
+	 width: 100%;
+	 display: flex;
+}
+.top_footer ul li {
+	 flex: 1;
+	 line-height: 100px;
+	 text-align: center;
+	 font-size: 18px;
+	 font-weight: 700;
+	 position: relative;
+}
+.top_footer b {
+	 width: 36px;
+	 height: 42px;
+	 line-height: 42px;
+	 display: block;
+	 background: url("../img/ico_service.png") no-repeat;
+	 position: absolute;
+	 top: 30px;
+	 left: 25px;
+	 text-indent: -2000em;
+}
+
+.top_footer .fs {
+	background-position: 0px -42px;
+}
+.top_footer .gd {
+	background-position: 0px -85px;
+}
+.top_footer .sv {
+	background-position: 0px bottom;
+}
+
+
+.middle_footer {
+	 height: 200px;
+	 border-bottom: 1px solid #ccc;
+}
+
+.middle_footer dl {
+	 float: left;
+	 width: 198px;
+	 margin-top: 28px;
+}
+.middle_footer dt {
+	 height: 30px;
+	 font-size: 16px;
+	 font-weight: 700;
+}
+.middle_footer dd {
+	 height: 25px;
+}
+
+
+.middle_footer .last-dl {
+	 height: 147px;
+	 background: url("../img/ico_footer.png") no-repeat;
+}
+
+.middle_footer .last-dl dt {
+	 text-align: center;
+}
+
+.middle_footer .last-dl p {
+	 padding: 0 5px;
+	 line-height: 20px;
+}
+
+.middle_footer .last-dl a {
+	 float: right;
+	 margin-right: 10px;
+	 margin-top: 5px;
+}
+
+.bot_footer {
+	height: 188px;
+	padding-top: 10px;
+	text-align: center;
+}
+.bot_footer span {
+	 margin: 0 10px;
+}
+
+.p2 {
+	 margin-top: 10px;
+}
